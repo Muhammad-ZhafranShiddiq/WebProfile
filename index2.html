@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Pribadi</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand" href="#">Muhammad Zhafran Shiddiq</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#Home">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Tentang</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Kemampuan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Proyek</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Profil Singkat -->
+    <section id="Home" class="container my-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="profile-pic-container">
+            <div class="blob"></div>
+            <img
+              src="image\profil1.png"
+              alt="Profile Picture"
+              class="profile-pic"
+            /><br>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <h3>Halo, Saya..</h3>
+          <h1>Muhammad Zhafran Shiddiq</h1>
+          <h4>Student & IT enthusiast</h4>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container my-5">
+      <h1>Tentang Saya</h1>
+      <br />
+      <p id="deskripsi">
+        Saya seorang mahasiswi jurusan Teknik Informatika Universitas
+        Padjadjaran yang memiliki ketertarikan terhadap hal-hal baru khususnya
+        di bidang pemrograman dan pengembangan diri. Saya memiliki pengalaman di
+        berbagai organisasi sebagai cara untuk meningkatkan soft skill saya dan
+        menerapkan pengetahuan informatika saya, termasuk menguasai perangkat
+        lunak analis data, pemrograman web, kerja tim, dan keterampilan berpikir
+        kritis. Saya sangat tertarik dengan Pembelajaran Mesin dan Ilmu Data
+      </p>
+    </section>
+    <!-- Kemampuan -->
+    <section id="skills" class="container my-5">
+      <h2 class="text-center mb-4">Kemampuan Pemrograman</h2>
+      <div class="row text-center">
+        <div class="col-md-3">
+          <img
+            src="image/HtmlLogo.png"
+            alt="Logo HTML"
+            class="programming-logo"
+          />
+          <p>HTML</p>
+        </div>
+        <div class="col-md-3">
+          <img
+            src="image/cssLogo.png"
+            alt="Logo CSS"
+            class="programming-logo"
+          />
+          <p>CSS</p>
+        </div>
+        <div class="col-md-3">
+          <img
+            src="image/JavascriptLogo.png"
+            alt="Logo 3"
+            class="programming-logo"
+          />
+          <p>Java Script</p>
+        </div>
+        <div class="col-md-3">
+          <img
+            src="image/CodeignitorLogo.png"
+            alt="Logo 4"
+            class="programming-logo"
+          />
+          <p>CodeIgniter 4</p>
+        </div>
+        <div class="col-md-12">
+          <img
+            src="image/laravelLogo.png"
+            alt="Logo 5"
+            class="programming-logo"
+          />
+          <p>Basic Laravel</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyek -->
+    <section id="projects" class="container my-5">
+      <h2 class="text-center mb-4">Proyek Saya</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <a
+            href="https://github.com/Muhammad-ZhafranShiddiq/Sisdat1.git"
+            target="_blank"
+          >
+            <img
+              src="image/PhpProject.png"
+              alt="Proyek 1"
+              class="project-pic"
+            />
+            <p class="text-center">
+              Berperan menjadi backend pada projek Mata Kuliah Sistem Database I
+              dan memimpin perencanaan skema database, hubungan antar interface
+              web, dengan pengerjaan dalam waktu 3 minggu
+            </p>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a
+            href="https://github.com/Praktikum-Pemrograman-Web-TI-Unpad-2023/proyek-web-imut-cekalii.git"
+            target="_blank"
+          >
+            <img src="image/CIproject.png" alt="Proyek 2" class="project-pic" />
+            <p class="text-center">
+              Pembuatan web damnz cafe menggunakan framework CodeIgniter 4 yang
+              mengimplementasikan authentication, session dan cookies pada mata
+              kuliah Pemrograman Berbasis Web
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact" class="container my-5 text-center">
+      <h2 class="mb-4">Kontak Saya</h2>
+      <a
+        href="https://www.instagram.com/_zhafrans?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        target="_blank"
+        ><img
+          src="image/InstagramLogo.png"
+          alt="Instagram"
+          class="social-logo mx-2"
+      /></a>
+      <a
+        href="https://drive.google.com/file/d/1hqjR53sFoAlHYVQuJx2p1BwtzCoYCqql/view?usp=sharing"
+        target="_blank"
+        ><img src="image/CV.png" alt="CV" class="social-logo mx-2"
+      /></a>
+      <a href="https://wa.me/+62895341529611" target="_blank"
+        ><img src="image/WA.png" alt="Whatsapp" class="social-logo mx-2"
+      /></a>
+      <a href="https://github.com/Muhammad-ZhafranShiddiq" target="_blank"
+        ><img src="image/github.png" alt="GitHub" class="social-logo mx-2"
+      /></a>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

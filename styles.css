@@ -1,0 +1,81 @@
+body {
+  background-color: #0f1629;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  color: white;
+}
+#deskripsi {
+  text-align: justify;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.navbar {
+  border-bottom: 2px solid white;
+}
+.profile-pic-container {
+  position: relative;
+  display: inline-block;
+}
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+.blob {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 320px;
+  background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+  border-radius: 50%;
+  z-index: 1;
+  animation: blob 10s infinite;
+}
+@keyframes blob {
+  0%,
+  100% {
+    border-radius: 40% 60% 70% 30% / 50% 40% 60% 50%;
+    transform: translate(0, 0);
+  }
+  25% {
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    transform: translate(-20px, -30px);
+  }
+  50% {
+    border-radius: 30% 70% 50% 50% / 60% 50% 50% 40%;
+    transform: translate(20px, 20px);
+  }
+  75% {
+    border-radius: 50% 50% 30% 70% / 40% 60% 50% 60%;
+    transform: translate(-10px, 10px);
+  }
+}
+.programming-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  text-align: center;
+}
+
+.project-pic {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.social-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
